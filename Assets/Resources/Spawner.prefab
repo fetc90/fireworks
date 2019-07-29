@@ -104,4 +104,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7f679568b32cd425092ad692f5c107e8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fireworkStartVelocity: 50
+  fireworkStartVelocity: 10

@@ -3,8 +3,8 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class Firework : MonoBehaviour {
-    private static float FUSE_TIME_IN_S = 3;
-    private static float CLEANUP_AFTER_N_S = 2;
+    private static float FUSE_TIME_IN_S = 1;
+    private static float CLEANUP_AFTER_N_S = 3;
 
     void Start () {
         StartCoroutine(CountdownToExplosion());
@@ -24,6 +24,9 @@ public class Firework : MonoBehaviour {
     }
     
     private void Explode() {
+        var explosionObj = this.transform.Find("ExplosionEffect").gameObject;
+        explosionObj.SetActive(true);
+
         Debug.Log("Kapow!");
     }
 }
