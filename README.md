@@ -12,3 +12,4 @@ A basic firework display built from a [blog](https://blog.betawave.io/a-software
 
 This was a really fun start, if I were to continue I would like to add different firework effects, change the sky to night and change the cyclinders to reflect a more realistic image of a firework.
 
+As the code was already provided, I have written a [post](https://medium.com/@fetc/unity-universe-40674d850652) about how objects in Unity react to instructions from a C# script.
